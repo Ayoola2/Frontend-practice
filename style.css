@@ -1,0 +1,94 @@
+:root{
+    --pre1boldfontsize: 24px;
+    --pre1mediumfontsize: 16px;
+    --pre1extraboldfontsize: 14px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    background-color: #F4D04E;
+    letter-spacing: 0px;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: var(--pre1boldfontsize);
+}
+
+p{
+    color: gray;
+}
+
+.date{
+    font-weight: 600;
+    color: black;
+}
+
+.profileName{
+    color: black;
+    font-weight: 900;
+}
+
+
+.container{
+    display: flex;
+}
+
+.cont1{
+    position: absolute;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 384px;
+    height: 522px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 8px 8px 0 rgba(0, 0 , 0, 1);
+    
+}
+
+.imgCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.learning{
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: black;
+    background-color: #F4D04E;
+    font-weight: 900;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.profileCont{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.image-avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
