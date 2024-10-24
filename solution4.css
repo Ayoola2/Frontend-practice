@@ -107,10 +107,10 @@ body{
 
 .cont4{
     width: 280px;
-    height: 200px;
+    height: 160px;
     background-color: #511F50;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .cont4 .underText{
@@ -119,11 +119,11 @@ body{
 
 .cont5{
     width: 280px;
-    height: 200px;
+    height: 160px;
     background-color: #511F50;
     padding: 20px;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .cont5 .underText{
@@ -132,11 +132,11 @@ body{
 
 .cont6{
     width: 280px;
-    height: 200px;
+    height: 160px;
     background-color: #511F50;
     padding: 20px;
     margin-top: 40px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .underText{
